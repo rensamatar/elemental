@@ -43,117 +43,68 @@
         "Status": "ก๊าซมีตระกูล"
         },
         {
-
-            "Atomic_number": "3",
-            "Group": "1",
-            "Period": "2",
-            "Symbol": "LI",
-            "Designation": "Lithium",
-            "Classification": "Alkali metals",
-            "Relative_atomic_mass": "6.941",
-            "Melting_point": "180.54",
-            "Boiling_point": "1347",
-            "Density": "0.53",
-            "Oxidation_stats": "1",
-            "Electronegativity": "0.97",
-            "Atomic_radius": "152",
-            "Electron_configuration": "[He] 2S1",
-            "Ground_level": "2S1|2",
-            "Ionization_energy": "5.3917",
-            "Picture": "Li.png",
-            "Thai_name": "ลิเทียม",
-            "Status": "โลหะแอลคาไลน์" 
-            },
-            {
-
-                "Atomic_number": 
-                "Group": 
-                "Period": 
-                "Symbol": 
-                "Designation": 
-                "Classification": 
-                "Relative_atomic_mass": 
-                "Melting_point": 
-                "Boiling_point": 
-                "Density": 
-                "Oxidation_stats": 
-                "Electronegativity": 
-                "Atomic_radius": 
-                "Electron_configuration": 
-                "Ground_level": 
-                "Ionization_energy": 
-                "Picture": 
-                "Thai_name": 
-                "Status": 
-
-                "4",
-                "2",
-                "2"
-                
-                
-                "Be",
-                "Beryllium",
-                "Alkaline-earth metals",
-                "9.01218",
-                "1278",
-                "2970",
-                "1.85",
-                "2",
-                "1.47",
-                "111.3",
-                "[He]2S2",
-                "1S0",
-                "9.3227",
-                "Be.png",
-                "เบริลเลียม",
-                "โลหะแอลคาไลน์เอิร์ท"
-                
-                },
-                {
-
-                    "Atomic_number": 
-                    "Group": 
-                    "Period": 
-                    "Symbol": 
-                    "Designation": 
-                    "Classification": 
-                    "Relative_atomic_mass": 
-                    "Melting_point": 
-                    "Boiling_point": 
-                    "Density": 
-                    "Oxidation_stats": 
-                    "Electronegativity": 
-                    "Atomic_radius": 
-                    "Electron_configuration": 
-                    "Ground_level": 
-                    "Ionization_energy": 
-                    "Picture": 
-                    "Thai_name": 
-                    "Status": 
-                    
-                    "5",
-                    "13",
-                    "2"
-                    ],
-                    
-                    "B",
-                    "Boron",
-                    "Semimetallics",
-                    "10.811",
-                    "2075",
-                    "4000",
-                    "2.46",
-                    "3",
-                    "2.01",
-                    "79.5",
-                    "[He]2S2 2P1",
-                    "2Po1|2",
-                    "8.298",
-                    "B.png",
-                    "โบรอน",
-                    "ธาตุกึ่งโลหะ"
-                    
-                    },
+        "Atomic_number": "3",
+        "Group": "1",
+        "Period": "2",
+        "Symbol": "LI",
+        "Designation": "Lithium",
+        "Classification": "Alkali metals",
+        "Relative_atomic_mass": "6.941",
+        "Melting_point": "180.54",
+        "Boiling_point": "1347",
+        "Density": "0.53",
+        "Oxidation_stats": "1",
+        "Electronegativity": "0.97",
+        "Atomic_radius": "152",
+        "Electron_configuration": "[He] 2S1",
+        "Ground_level": "2S1|2",
+        "Ionization_energy": "5.3917",
+        "Picture": "Li.png",
+        "Thai_name": "ลิเทียม",
+        "Status": "โลหะแอลคาไลน์" 
+        },
+        {
+        "Atomic_number": "4", 
+        "Group": "2",
+        "Period": "2",
+        "Symbol": "Be",
+        "Designation": "Beryllium",
+        "Classification": "Alkaline-earth metals",
+        "Relative_atomic_mass": "9.01218",
+        "Melting_point": "1278",
+        "Boiling_point": "2970",
+        "Density": "1.85",
+        "Oxidation_stats": "2",
+        "Electronegativity": "1.47",
+        "Atomic_radius": "111.3",
+        "Electron_configuration": "[He]2S2",
+        "Ground_level": "1S0",
+        "Ionization_energy": "9.3227",
+        "Picture": "Be.png",
+        "Thai_name": "เบริลเลียม",
+        "Status": "โลหะแอลคาไลน์เอิร์ท"
+        },
+        {
+        "Atomic_number": "5",
+        "Group": "13",
+        "Period": "2",
+        "Symbol": "B",
+        "Designation": "Boron",
+        "Classification": "Semimetallics",
+        "Relative_atomic_mass": "10.811",
+        "Melting_point": "2075",
+        "Boiling_point": "4000",
+        "Density": "2.46",
+        "Oxidation_stats": "3",
+        "Electronegativity": "2.01",
+        "Atomic_radius": "79.5",
+        "Electron_configuration": "[He]2S2 2P1",
+        "Ground_level": "2Po1|2",
+        "Ionization_energy": "8.298",
+        "Picture": "B.png",
+        "Thai_name": "โบรอน",
+        "Status":  "ธาตุกึ่งโลหะ"
+        },
                     {
 
                         "Atomic_number": 
