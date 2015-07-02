@@ -22,1242 +22,692 @@
     "Status": "อโลหะ"
     },
     {  
-        "Atomic_number": "2",
-        "Group": "18",
-        "Period": "1",
-        "Symbol": "He",
-        "Designation": "Helium",
-        "Classification": "Inert gases",
-        "Relative_atomic_mass": "4.0026",
-        "Melting_point": "-272.2",
-        "Boiling_point": "-268.93",
-        "Density": "0.17",
-        "Oxidation_stats": "-",
-        "Electronegativity": "-",
-        "Atomic_radius": "128",
-        "Electron_configuration": "1S2",
-        "Ground_level": "1S0",
-        "Ionization_energy": "24.5874",
-        "Picture": "He.png",
-        "Thai_name": "ฮีเลียม",
-        "Status": "ก๊าซมีตระกูล"
+    "Atomic_number": "2",
+    "Group": "18",
+    "Period": "1",
+    "Symbol": "He",
+    "Designation": "Helium",
+    "Classification": "Inert gases",
+    "Relative_atomic_mass": "4.0026",
+    "Melting_point": "-272.2",
+    "Boiling_point": "-268.93",
+    "Density": "0.17",
+    "Oxidation_stats": "-",
+    "Electronegativity": "-",
+    "Atomic_radius": "128",
+    "Electron_configuration": "1S2",
+    "Ground_level": "1S0",
+    "Ionization_energy": "24.5874",
+    "Picture": "He.png",
+    "Thai_name": "ฮีเลียม",
+    "Status": "ก๊าซมีตระกูล"
+    },
+    {
+    "Atomic_number": "3",
+    "Group": "1",
+    "Period": "2",
+    "Symbol": "LI",
+    "Designation": "Lithium",
+    "Classification": "Alkali metals",
+    "Relative_atomic_mass": "6.941",
+    "Melting_point": "180.54",
+    "Boiling_point": "1347",
+    "Density": "0.53",
+    "Oxidation_stats": "1",
+    "Electronegativity": "0.97",
+    "Atomic_radius": "152",
+    "Electron_configuration": "[He] 2S1",
+    "Ground_level": "2S1|2",
+    "Ionization_energy": "5.3917",
+    "Picture": "Li.png",
+    "Thai_name": "ลิเทียม",
+    "Status": "โลหะแอลคาไลน์" 
+    },
+    {
+    "Atomic_number": "4", 
+    "Group": "2",
+    "Period": "2",
+    "Symbol": "Be",
+    "Designation": "Beryllium",
+    "Classification": "Alkaline-earth metals",
+    "Relative_atomic_mass": "9.01218",
+    "Melting_point": "1278",
+    "Boiling_point": "2970",
+    "Density": "1.85",
+    "Oxidation_stats": "2",
+    "Electronegativity": "1.47",
+    "Atomic_radius": "111.3",
+    "Electron_configuration": "[He]2S2",
+    "Ground_level": "1S0",
+    "Ionization_energy": "9.3227",
+    "Picture": "Be.png",
+    "Thai_name": "เบริลเลียม",
+    "Status": "โลหะแอลคาไลน์เอิร์ท"
+    },
+    {
+    "Atomic_number": "5",
+    "Group": "13",
+    "Period": "2",
+    "Symbol": "B",
+    "Designation": "Boron",
+    "Classification": "Semimetallics",
+    "Relative_atomic_mass": "10.811",
+    "Melting_point": "2075",
+    "Boiling_point": "4000",
+    "Density": "2.46",
+    "Oxidation_stats": "3",
+    "Electronegativity": "2.01",
+    "Atomic_radius": "79.5",
+    "Electron_configuration": "[He]2S2 2P1",
+    "Ground_level": "2Po1|2",
+    "Ionization_energy": "8.298",
+    "Picture": "B.png",
+    "Thai_name": "โบรอน",
+    "Status":  "ธาตุกึ่งโลหะ"
+    },
+    {
+    "Atomic_number": "6",
+    "Group": "14",
+    "Period": "2",
+    "Symbol": "C",
+    "Designation": "Carbon",
+    "Classification": "Nonmetals",
+    "Relative_atomic_mass": "12.0107",
+    "Melting_point": "3550",
+    "Boiling_point": "4827",
+    "Density": "3.51",
+    "Oxidation_stats": "-4,2,4",
+    "Electronegativity": "2.5",
+    "Atomic_radius": "77.2",
+    "Electron_configuration": "[He]2S2 2P2",
+    "Ground_level": "3P0",
+    "Ionization_energy": "11.2603",
+    "Picture": "C.png",
+    "Thai_name": "คาร์บอน",
+    "Status": "อโลหะ"
+    },
+    {
+    "Atomic_number": "7",
+    "Group": "15",
+    "Period": "2",
+    "Symbol": "N",
+    "Designation": "Nitrogen",
+    "Classification": "Nonmetals",
+    "Relative_atomic_mass": "14.0067",
+    "Melting_point": "-209.86",
+    "Boiling_point": "-195.8",
+    "Density": "1.17",
+    "Oxidation_stats": "-3,2,3,4,5",
+    "Electronegativity": "3.07",
+    "Atomic_radius": "71",
+    "Electron_configuration": "[He]2S2 2P3",
+    "Ground_level": "4So3|2",
+    "Ionization_energy": "14.5341",
+    "Picture": "N.png",
+    "Thai_name": "ไนโตรเจน",
+    "Status": "อโลหะ"
+    },
+    {
+    "Atomic_number": "8",
+    "Group": "16",
+    "Period": "2",
+    "Symbol": "O",
+    "Designation": "Oxygen",
+    "Classification": "Nonmetals",
+    "Relative_atomic_mass": "15.9994",
+    "Melting_point": "-218.4",
+    "Boiling_point": "-182.96",
+    "Density": "1.33",
+    "Oxidation_stats": "-2,-1",
+    "Electronegativity": "3.5",
+    "Atomic_radius": "60.4",
+    "Electron_configuration": "[He]2S2 2P4",
+    "Ground_level": "3P2",
+    "Ionization_energy": "13.6181",
+    "Picture": "O.png",
+    "Thai_name": "ออกซิเจน",
+    "Status": "อโลหะ"
+    },
+    {
+    "Atomic_number": "9",
+    "Group": "17",
+    "Period": "2",
+    "Symbol": "F",
+    "Designation": "Fluorine",
+    "Classification": "Halogens",
+    "Relative_atomic_mass": "18.9984",
+    "Melting_point": "-219.62",
+    "Boiling_point": "-188.14",
+    "Density": "1.58",
+    "Oxidation_stats": "-1",
+    "Electronegativity": "4.1",
+    "Atomic_radius": "70.9",
+    "Electron_configuration": "[He]2S2 2P5",
+    "Ground_level": "2Po3|2",
+    "Ionization_energy": "17.4228",
+    "Picture":"F.png",
+    "Thai_name": "ฟลูออรีน",
+    "Status": "แฮโลเจน"
+    },
+    {                               
+    "Atomic_number": "10",
+    "Group": "18",
+    "Period": "2",
+    "Symbol": "Ne",
+    "Designation": "Neon",
+    "Classification": "Inert gases",
+    "Relative_atomic_mass": "20.1797",
+    "Melting_point": "-248.67",
+    "Boiling_point": "-246.05",
+    "Density": "0.84",
+    "Oxidation_stats": "-",
+    "Electronegativity": "-",
+    "Atomic_radius": "-",
+    "Electron_configuration": "[He]2S2 2P6",
+    "Ground_level": "1S0",
+    "Ionization_energy": "21.5645",
+    "Picture": "Ne.png",
+    "Thai_name": "นีออน",
+    "Status": "ก๊าซมีตระกูล"
+    },
+    {
+    "Atomic_number": "11",
+    "Group": "1",
+    "Period": "3",
+    "Symbol": "Na",
+    "Designation": "Sodium",
+    "Classification": "Alkali metals",
+    "Relative_atomic_mass": "22.9898",
+    "Melting_point": "97.81",
+    "Boiling_point": "882.9",
+    "Density": "0.97",
+    "Oxidation_stats": "1",
+    "Electronegativity": "1.01",
+    "Atomic_radius": "153.7",
+    "Electron_configuration": "[He] 3S1",
+    "Ground_level": "2S1|2",
+    "Ionization_energy": "5.1391",
+    "Picture": "Na.png",
+    "Thai_name": "โซเดียม",
+    "Status": "โลหะแอลคาไลน์"
+    },
+    {
+    "Atomic_number": "12",
+    "Group": "2",
+    "Period": "3",
+    "Symbol":"Mg",
+    "Designation": "Magnesium",
+    "Classification": "Alkaline-earth metals",
+    "Relative_atomic_mass": "24.305",
+    "Melting_point": "648.8",
+    "Boiling_point": "1090",
+    "Density": "1.74",
+    "Oxidation_stats": "2",
+    "Electronegativity": "1.23",
+    "Atomic_radius": "159.9",
+    "Electron_configuration": "[Ne] 3S2",
+    "Ground_level": "1S0",
+    "Ionization_energy": "7.6462",
+    "Picture": "Mg.png",
+    "Thai_name": "แมกนีเซียม",
+    "Status": "โลหะแอลคาไลน์เอิร์ท"
+    },
+    {
+    "Atomic_number": "13",
+    "Group": "13",
+    "Period": "3",
+    "Symbol": "Al",
+    "Designation": "Aluminium",
+    "Classification": "Other metals",
+    "Relative_atomic_mass": "26.9815",
+    "Melting_point": "660.37",
+    "Boiling_point": "2467",
+    "Density": "2.7",
+    "Oxidation_stats": "3",
+    "Electronegativity": "1.47",
+    "Atomic_radius": "143.2",
+    "Electron_configuration": "[Ne] 3S2 3P1",
+    "Ground_level": "2Po1|2",
+    "Ionization_energy": "7.57",
+    "Picture": "Al.png",
+    "Thai_name": "อะลูมิเนียม",
+    "Status": "โลหะหลังทรานซิชัน"
+    },
+    {
+    "Atomic_number": "14",
+    "Group": "14",
+    "Period": "3",
+    "Symbol": "Si",
+    "Designation": "Silicon",
+    "Classification": "Semimetallics",
+    "Relative_atomic_mass": "28.0855",
+    "Melting_point": "1410",
+    "Boiling_point": "2355",
+    "Density": "2.33",
+    "Oxidation_stats": "-4,4",
+    "Electronegativity": "1.74",
+    "Atomic_radius": "117.6",
+    "Electron_configuration": "[Ne] 3S2 3P2",
+    "Ground_level": "3P0",
+    "Ionization_energy": "8.1517",
+    "Picture": "Si.png",
+    "Thai_name": "ซิลิคอน",
+    "Status": "ธาตุกึ่งโลหะ"
+    },
+    {
+    "Atomic_number": "15",
+    "Group": "15",
+    "Period": "3",
+    "Symbol": "P",
+    "Designation": "Phosphorus",
+    "Classification": "Nonmetals",
+    "Relative_atomic_mass": "30.9738",
+    "Melting_point": "44.1",
+    "Boiling_point": "280",
+    "Density": "1.82",
+    "Oxidation_stats": "-3,3,5",
+    "Electronegativity": "2.06",
+    "Atomic_radius": "110.5",
+    "Electron_configuration": "[Ne] 3S2 3P3",
+    "Ground_level": "4So3|2",
+    "Ionization_energy": "10.4867",
+    "Picture": "P.png",
+    "Thai_name": "ฟอสฟอรัส",
+    "Status": "อโลหะ"
+    },
+    {
+    "Atomic_number": "16",
+    "Group": "16",
+    "Period": "3",
+    "Symbol": "S",
+    "Designation": "Sulfur",
+    "Classification": "Nonmetals",
+    "Relative_atomic_mass": "32.065",
+    "Melting_point": "112.8",
+    "Boiling_point": "444.67",
+    "Density": "2.06",
+    "Oxidation_stats": "-2,2,4,6",
+    "Electronegativity": "2.44",
+    "Atomic_radius": "103.5",
+    "Electron_configuration": "[Ne] 3S2 3P4",
+    "Ground_level": "3P2",
+    "Ionization_energy": "10.36",
+    "Picture": "S.png",
+    "Thai_name": "กำมะถัน",
+    "Status": "อโลหะ"
+    },
+    {
+    "Atomic_number": "17",
+    "Group": "17",
+    "Period": "3",
+    "Symbol": "Cl",
+    "Designation": "Chlorine",
+    "Classification": "Halogens",
+    "Relative_atomic_mass": "35.453",
+    "Melting_point": "-100.98",
+    "Boiling_point": "-34.6",
+    "Density": "2.95",
+    "Oxidation_stats": "-1,1,3,5,7",
+    "Electronegativity": "2.83",
+    "Atomic_radius": "99.4",
+    "Electron_configuration": "[Ne] 3S2 3P5",
+    "Ground_level": "3Po3|2",
+    "Ionization_energy": "12.9676",
+    "Picture": "Cl.png",
+    "Thai_name": "คลอรีน",
+    "Status":  "แฮโลเจน"
+    },
+    {
+    "Atomic_number": "18",
+    "Group": "13",
+    "Period": "3",
+    "Symbol": "Ar",
+    "Designation": "Argon",
+    "Classification": "Inert gases",
+    "Relative_atomic_mass": "39.948",
+    "Melting_point": "-189.2",
+    "Boiling_point": "-185.7",
+    "Density": "1.66",
+    "Oxidation_stats": "-",
+    "Electronegativity": "-",
+    "Atomic_radius": "174",
+    "Electron_configuration": "[Ne] 3S2 3P6",
+    "Ground_level": "1S0",
+    "Ionization_energy": "15.7596",
+    "Picture": "Ar.png",
+    "Thai_name": "อาร์กอน",
+    "Status": "ก๊าซมีตระกูล"
+    },
+    {
+    "Atomic_number": "19",
+    "Group": "1",
+    "Period": "4",
+    "Symbol": "K",
+    "Designation": "Potassium",
+    "Classification": "Alkali metals",
+    "Relative_atomic_mass": "39.0983",
+    "Melting_point": "63.65",
+    "Boiling_point": "774",
+    "Density": "0.86",
+    "Oxidation_stats": "1",
+    "Electronegativity": "0.91",
+    "Atomic_radius": "227.2",
+    "Electron_configuration": "[Ar] 4S1",
+    "Ground_level": "2S1|2",
+    "Ionization_energy": "4.3407",
+    "Picture": "K.png",
+    "Thai_name": "โพแทสเซียม",
+    "Status": "โลหะแอลคาไลน์"
+    },
+    { 
+    "Atomic_number": "20",
+    "Group": "2",
+    "Period":"4",
+    "Symbol": "Ca",
+    "Designation": "Calcium",
+    "Classification": "Alkaline-earth metals",
+    "Relative_atomic_mass": "40.078",
+    "Melting_point": "839",
+    "Boiling_point": "1484",
+    "Density": "1.54",
+    "Oxidation_stats": "2",
+    "Electronegativity": "1.04",
+    "Atomic_radius": "197.4",
+    "Electron_configuration": "[Ar] 4S2",
+    "Ground_level": "1S0",
+    "Ionization_energy": "6.1132",
+    "Picture": "Ca.png",
+    "Thai_name": "แคลเซียม",
+    "Status": "โลหะแอลคาไลน์เอิร์ท"
+    },
+    {
+    "Atomic_number": "21",
+    "Group": "3",
+    "Period": "4",
+    "Symbol": "Sc",
+    "Designation": "Scandium",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "44.9559",
+    "Melting_point": "1541",
+    "Boiling_point": "2831",
+    "Density": "2.99",
+    "Oxidation_stats": "3",
+    "Electronegativity": "1.2",
+    "Atomic_radius": "162",
+    "Electron_configuration": "[Ar] 3D1 4S2",
+    "Ground_level": "2D3|2",
+    "Ionization_energy": "6.5615",
+    "Picture": "Sc.png",
+    "Thai_name": "สแกนเดียม",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "22",
+    "Group": "4",
+    "Period": "4",
+    "Symbol": "Ti",
+    "Designation": "Titanium",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "47.867",
+    "Melting_point": "1660",
+    "Boiling_point": "3287",
+    "Density": "4.51",
+    "Oxidation_stats": "3,4",
+    "Electronegativity": "1.32",
+    "Atomic_radius": "144.8",
+    "Electron_configuration": "[Ar] 3D2 4S2",
+    "Ground_level": "3F2",
+    "Ionization_energy": "6.8281",
+    "Picture": "Ti.png",
+    "Thai_name": "ไทเทเนียม",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "23",
+    "Group": "5",
+    "Period": "4",
+    "Symbol": "V",
+    "Designation": "Vanadium",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "50.9415",
+    "Melting_point": "1890",
+    "Boiling_point": "3380",
+    "Density": "6.09",
+    "Oxidation_stats": "0,2,3,4,5",
+    "Electronegativity": "1.45",
+    "Atomic_radius": "134",
+    "Electron_configuration": "[Ar] 3D3 4S2",
+    "Ground_level": "4F3|2",
+    "Ionization_energy": "6.7462",
+    "Picture": "V.png",
+    "Thai_name": "วาเนเดียม",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "24",
+    "Group": "6",
+    "Period": "4",
+    "Symbol": "Cr",
+    "Designation": "Chromium",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "51.9961",
+    "Melting_point": "1857",
+    "Boiling_point": "2672",
+    "Density": "7.14",
+    "Oxidation_stats": "0,2,3,6",
+    "Electronegativity": "1.56",
+    "Atomic_radius": "128",
+    "Electron_configuration": "[Ar] 3D5 4S1",
+    "Ground_level": "7S3",
+    "Ionization_energy": "6.7462",
+    "Picture": "Cr.png",
+    "Thai_name": "โครเมียม",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "25",
+    "Group": "7",
+    "Period": "4",
+    "Symbol": "Mn",
+    "Designation": "Manganese",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "54.938",
+    "Melting_point": "1244",
+    "Boiling_point": "1962",
+    "Density": "7.44",
+    "Oxidation_stats": "-1,0,2,3,4,6,7",
+    "Electronegativity": "1.6",
+    "Atomic_radius": "127",
+    "Electron_configuration": "[Ar] 3D5 4S2",
+    "Ground_level": "6S5|2",
+    "Ionization_energy": "7.434",
+    "Picture": "Mn.png",
+    "Thai_name": "แมงกานีส",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "26",
+    "Group": "8",
+    "Period": "4",
+    "Symbol": "Fe",
+    "Designation": "Iron",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "55.845",
+    "Melting_point": "1535",
+    "Boiling_point": "2750",
+    "Density": "7.87",
+    "Oxidation_stats": "-2,0,2,3,6",
+    "Electronegativity": "1.64",
+    "Atomic_radius": "126",
+    "Electron_configuration": "[Ar] 3D6 4S2",
+    "Ground_level": "5D4",
+    "Ionization_energy": "7.9024",
+    "Picture": "Fe.png",
+    "Thai_name": "เหล็ก",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+    "Atomic_number": "27",
+    "Group": "9",
+    "Period": "4",
+    "Symbol": "Co",
+    "Designation": "Cobalt",
+    "Classification": "Transition metals",
+    "Relative_atomic_mass": "58.9332",
+    "Melting_point": "1495",
+    "Boiling_point": "2870",
+    "Density": "8.89",
+    "Oxidation_stats": "-1,0,2,3",
+    "Electronegativity": "1.7",
+    "Atomic_radius": "125.3",
+    "Electron_configuration": "[Ar] 3D7 4S2",
+    "Ground_level": "4F9|2",
+    "Ionization_energy": "7.881",
+    "Picture": "Co.png",
+    "Thai_name": "โคบอลต์",
+    "Status": "โลหะทรานซิชัน"
+    },
+    {
+
+    "Atomic_number": 
+    "Group": 
+    "Period": 
+    "Symbol": 
+    "Designation": 
+    "Classification": 
+    "Relative_atomic_mass": 
+    "Melting_point": 
+    "Boiling_point": 
+    "Density": 
+    "Oxidation_stats": 
+    "Electronegativity": 
+    "Atomic_radius": 
+    "Electron_configuration": 
+    "Ground_level": 
+    "Ionization_energy": 
+    "Picture": 
+    "Thai_name": 
+    "Status": 
+    ],
+    "integer": [
+    "28",
+    "10",
+    "4"
+    ],
+
+    "Ni",
+    "Nickel",
+    "Transition metals",
+    "56.6934",
+    "1453",
+    "2732",
+    "8.91",
+    "0,2,3",
+    "1.75",
+    "124.6",
+    "[Ar] 3D8 4S2",
+    "3F4",
+    "7.6398",
+    "Ni.png",
+    "นิกเกิล",
+    "โลหะทรานซิชัน"
+    ]
+    },
+    {
+
+    "Atomic_number": 
+    "Group": 
+    "Period": 
+    "Symbol": 
+    "Designation": 
+    "Classification": 
+    "Relative_atomic_mass": 
+    "Melting_point": 
+    "Boiling_point": 
+    "Density": 
+    "Oxidation_stats": 
+    "Electronegativity": 
+    "Atomic_radius": 
+    "Electron_configuration": 
+    "Ground_level": 
+    "Ionization_energy": 
+    "Picture": 
+    "Thai_name": 
+    "Status": 
+    ],
+    "integer": [
+    "29",
+    "11",
+    "4"
+    ],
+
+    "Cu",
+    "Copper",
+    "Transition metals",
+    "63.546",
+    "1083",
+    "2567",
+    "8.92",
+    "1,2",
+    "1.75",
+    "127.8",
+    "[Ar] 3D10 4S1",
+    "2S1|2",
+    "7.7264",
+    "Cu.png",
+    "ทองแดง",
+    "โลหะทรานซิชัน"
+    ]
+    },
+    {
+
+        "Atomic_number": 
+        "Group": 
+        "Period": 
+        "Symbol": 
+        "Designation": 
+        "Classification": 
+        "Relative_atomic_mass": 
+        "Melting_point": 
+        "Boiling_point": 
+        "Density": 
+        "Oxidation_stats": 
+        "Electronegativity": 
+        "Atomic_radius": 
+        "Electron_configuration": 
+        "Ground_level": 
+        "Ionization_energy": 
+        "Picture": 
+        "Thai_name": 
+        "Status": 
+        ],
+        "integer": [
+        "30",
+        "12",
+        "4"
+        ],
+        
+        "Zn",
+        "Zinc",
+        "Transition metals",
+        "65.409",
+        "419.6",
+        "907",
+        "7.14",
+        "2",
+        "1.66",
+        "134",
+        "[Ar] 3D10 4S2",
+        "1S0",
+        "9.3942",
+        "Zn.png",
+        "สังกะสี",
+        "โลหะทรานซิชัน"
+        ]
         },
         {
-        "Atomic_number": "3",
-        "Group": "1",
-        "Period": "2",
-        "Symbol": "LI",
-        "Designation": "Lithium",
-        "Classification": "Alkali metals",
-        "Relative_atomic_mass": "6.941",
-        "Melting_point": "180.54",
-        "Boiling_point": "1347",
-        "Density": "0.53",
-        "Oxidation_stats": "1",
-        "Electronegativity": "0.97",
-        "Atomic_radius": "152",
-        "Electron_configuration": "[He] 2S1",
-        "Ground_level": "2S1|2",
-        "Ionization_energy": "5.3917",
-        "Picture": "Li.png",
-        "Thai_name": "ลิเทียม",
-        "Status": "โลหะแอลคาไลน์" 
-        },
-        {
-        "Atomic_number": "4", 
-        "Group": "2",
-        "Period": "2",
-        "Symbol": "Be",
-        "Designation": "Beryllium",
-        "Classification": "Alkaline-earth metals",
-        "Relative_atomic_mass": "9.01218",
-        "Melting_point": "1278",
-        "Boiling_point": "2970",
-        "Density": "1.85",
-        "Oxidation_stats": "2",
-        "Electronegativity": "1.47",
-        "Atomic_radius": "111.3",
-        "Electron_configuration": "[He]2S2",
-        "Ground_level": "1S0",
-        "Ionization_energy": "9.3227",
-        "Picture": "Be.png",
-        "Thai_name": "เบริลเลียม",
-        "Status": "โลหะแอลคาไลน์เอิร์ท"
-        },
-        {
-        "Atomic_number": "5",
-        "Group": "13",
-        "Period": "2",
-        "Symbol": "B",
-        "Designation": "Boron",
-        "Classification": "Semimetallics",
-        "Relative_atomic_mass": "10.811",
-        "Melting_point": "2075",
-        "Boiling_point": "4000",
-        "Density": "2.46",
-        "Oxidation_stats": "3",
-        "Electronegativity": "2.01",
-        "Atomic_radius": "79.5",
-        "Electron_configuration": "[He]2S2 2P1",
-        "Ground_level": "2Po1|2",
-        "Ionization_energy": "8.298",
-        "Picture": "B.png",
-        "Thai_name": "โบรอน",
-        "Status":  "ธาตุกึ่งโลหะ"
-        },
-                    {
 
                         "Atomic_number": 
-                        "Group": 
-                        "Period": 
-                        "Symbol": 
-                        "Designation": 
-                        "Classification": 
-                        "Relative_atomic_mass": 
-                        "Melting_point": 
-                        "Boiling_point": 
-                        "Density": 
-                        "Oxidation_stats": 
-                        "Electronegativity": 
-                        "Atomic_radius": 
-                        "Electron_configuration": 
-                        "Ground_level": 
-                        "Ionization_energy": 
-                        "Picture": 
-                        "Thai_name": 
-                        "Status": 
-                        ],
-                        "integer": [
-                        "6",
-                        "14",
-                        "2"
-                        ],
-                        
-                        "C",
-                        "Carbon",
-                        "Nonmetals",
-                        "12.0107",
-                        "3550",
-                        "4827",
-                        "3.51",
-                        "-4,2,4",
-                        "2.5",
-                        "77.2",
-                        "[He]2S2 2P2",
-                        "3P0",
-                        "11.2603",
-                        "C.png",
-                        "คาร์บอน",
-                        "อโลหะ"
-                        ]
-                        },
-                        {
-
-                            "Atomic_number": 
-                            "Group": 
-                            "Period": 
-                            "Symbol": 
-                            "Designation": 
-                            "Classification": 
-                            "Relative_atomic_mass": 
-                            "Melting_point": 
-                            "Boiling_point": 
-                            "Density": 
-                            "Oxidation_stats": 
-                            "Electronegativity": 
-                            "Atomic_radius": 
-                            "Electron_configuration": 
-                            "Ground_level": 
-                            "Ionization_energy": 
-                            "Picture": 
-                            "Thai_name": 
-                            "Status": 
-                            ],
-                            "integer": [
-                            "7",
-                            "15",
-                            "2"
-                            ],
-                            
-                            "N",
-                            "Nitrogen",
-                            "Nonmetals",
-                            "14.0067",
-                            "-209.86",
-                            "-195.8",
-                            "1.17",
-                            "-3,2,3,4,5",
-                            "3.07",
-                            "71",
-                            "[He]2S2 2P3",
-                            "4So3|2",
-                            "14.5341",
-                            "N.png",
-                            "ไนโตรเจน",
-                            "อโลหะ"
-                            ]
-                            },
-                            {
-
-                                "Atomic_number": 
-                                "Group": 
-                                "Period": 
-                                "Symbol": 
-                                "Designation": 
-                                "Classification": 
-                                "Relative_atomic_mass": 
-                                "Melting_point": 
-                                "Boiling_point": 
-                                "Density": 
-                                "Oxidation_stats": 
-                                "Electronegativity": 
-                                "Atomic_radius": 
-                                "Electron_configuration": 
-                                "Ground_level": 
-                                "Ionization_energy": 
-                                "Picture": 
-                                "Thai_name": 
-                                "Status": 
-                                ],
-                                "integer": [
-                                "8",
-                                "16",
-                                "2"
-                                ],
-                                
-                                "O",
-                                "Oxygen",
-                                "Nonmetals",
-                                "15.9994",
-                                "-218.4",
-                                "-182.96",
-                                "1.33",
-                                "-2,-1",
-                                "3.5",
-                                "60.4",
-                                "[He]2S2 2P4",
-                                "3P2",
-                                "13.6181",
-                                "O.png",
-                                "ออกซิเจน",
-                                "อโลหะ"
-                                ]
-                                },
-                                {
-
-                                    "Atomic_number": 
-                                    "Group": 
-                                    "Period": 
-                                    "Symbol": 
-                                    "Designation": 
-                                    "Classification": 
-                                    "Relative_atomic_mass": 
-                                    "Melting_point": 
-                                    "Boiling_point": 
-                                    "Density": 
-                                    "Oxidation_stats": 
-                                    "Electronegativity": 
-                                    "Atomic_radius": 
-                                    "Electron_configuration": 
-                                    "Ground_level": 
-                                    "Ionization_energy": 
-                                    "Picture": 
-                                    "Thai_name": 
-                                    "Status": 
-                                    ],
-                                    "integer": [
-                                    "9",
-                                    "17",
-                                    "2"
-                                    ],
-                                    
-                                    "F",
-                                    "Fluorine",
-                                    "Halogens",
-                                    "18.9984",
-                                    "-219.62",
-                                    "-188.14",
-                                    "1.58",
-                                    "-1",
-                                    "4.1",
-                                    "70.9",
-                                    "[He]2S2 2P5",
-                                    "2Po3|2",
-                                    "17.4228",
-                                    "F.png",
-                                    "ฟลูออรีน",
-                                    "แฮโลเจน"
-                                    ]
-                                    },
-                                    {
-
-                                        "Atomic_number": 
-                                        "Group": 
-                                        "Period": 
-                                        "Symbol": 
-                                        "Designation": 
-                                        "Classification": 
-                                        "Relative_atomic_mass": 
-                                        "Melting_point": 
-                                        "Boiling_point": 
-                                        "Density": 
-                                        "Oxidation_stats": 
-                                        "Electronegativity": 
-                                        "Atomic_radius": 
-                                        "Electron_configuration": 
-                                        "Ground_level": 
-                                        "Ionization_energy": 
-                                        "Picture": 
-                                        "Thai_name": 
-                                        "Status": 
-                                        ],
-                                        "integer": [
-                                        "10",
-                                        "18",
-                                        "2"
-                                        ],
-                                        
-                                        "Ne",
-                                        "Neon",
-                                        "Inert gases",
-                                        "20.1797",
-                                        "-248.67",
-                                        "-246.05",
-                                        "0.84",
-                                        "-",
-                                        "-",
-                                        "-",
-                                        "[He]2S2 2P6",
-                                        "1S0",
-                                        "21.5645",
-                                        "Ne.png",
-                                        "นีออน",
-                                        "ก๊าซมีตระกูล"
-                                        ]
-                                        },
-                                        {
-
-                                            "Atomic_number": 
-                                            "Group": 
-                                            "Period": 
-                                            "Symbol": 
-                                            "Designation": 
-                                            "Classification": 
-                                            "Relative_atomic_mass": 
-                                            "Melting_point": 
-                                            "Boiling_point": 
-                                            "Density": 
-                                            "Oxidation_stats": 
-                                            "Electronegativity": 
-                                            "Atomic_radius": 
-                                            "Electron_configuration": 
-                                            "Ground_level": 
-                                            "Ionization_energy": 
-                                            "Picture": 
-                                            "Thai_name": 
-                                            "Status": 
-                                            ],
-                                            "integer": [
-                                            "11",
-                                            "1",
-                                            "3"
-                                            ],
-                                            
-                                            "Na",
-                                            "Sodium",
-                                            "Alkali metals",
-                                            "22.9898",
-                                            "97.81",
-                                            "882.9",
-                                            "0.97",
-                                            "1",
-                                            "1.01",
-                                            "153.7",
-                                            "[He] 3S1",
-                                            "2S1|2",
-                                            "5.1391",
-                                            "Na.png",
-                                            "โซเดียม",
-                                            "โลหะแอลคาไลน์"
-                                            ]
-                                            },
-                                            {
-
-                                                "Atomic_number": 
-                                                "Group": 
-                                                "Period": 
-                                                "Symbol": 
-                                                "Designation": 
-                                                "Classification": 
-                                                "Relative_atomic_mass": 
-                                                "Melting_point": 
-                                                "Boiling_point": 
-                                                "Density": 
-                                                "Oxidation_stats": 
-                                                "Electronegativity": 
-                                                "Atomic_radius": 
-                                                "Electron_configuration": 
-                                                "Ground_level": 
-                                                "Ionization_energy": 
-                                                "Picture": 
-                                                "Thai_name": 
-                                                "Status": 
-                                                ],
-                                                "integer": [
-                                                "12",
-                                                "2",
-                                                "3"
-                                                ],
-                                                
-                                                "Mg",
-                                                "Magnesium",
-                                                "Alkaline-earth metals",
-                                                "24.305",
-                                                "648.8",
-                                                "1090",
-                                                "1.74",
-                                                "2",
-                                                "1.23",
-                                                "159.9",
-                                                "[Ne] 3S2",
-                                                "1S0",
-                                                "7.6462",
-                                                "Mg.png",
-                                                "แมกนีเซียม",
-                                                "โลหะแอลคาไลน์เอิร์ท"
-                                                ]
-                                                },
-                                                {
-
-                                                    "Atomic_number": 
-                                                    "Group": 
-                                                    "Period": 
-                                                    "Symbol": 
-                                                    "Designation": 
-                                                    "Classification": 
-                                                    "Relative_atomic_mass": 
-                                                    "Melting_point": 
-                                                    "Boiling_point": 
-                                                    "Density": 
-                                                    "Oxidation_stats": 
-                                                    "Electronegativity": 
-                                                    "Atomic_radius": 
-                                                    "Electron_configuration": 
-                                                    "Ground_level": 
-                                                    "Ionization_energy": 
-                                                    "Picture": 
-                                                    "Thai_name": 
-                                                    "Status": 
-                                                    ],
-                                                    "integer": [
-                                                    "13",
-                                                    "13",
-                                                    "3"
-                                                    ],
-                                                    
-                                                    "Al",
-                                                    "Aluminium",
-                                                    "Other metals",
-                                                    "26.9815",
-                                                    "660.37",
-                                                    "2467",
-                                                    "2.7",
-                                                    "3",
-                                                    "1.47",
-                                                    "143.2",
-                                                    "[Ne] 3S2 3P1",
-                                                    "2Po1|2",
-                                                    "7.57",
-                                                    "Al.png",
-                                                    "อะลูมิเนียม",
-                                                    "โลหะหลังทรานซิชัน"
-                                                    ]
-                                                    },
-                                                    {
-
-                                                        "Atomic_number": 
-                                                        "Group": 
-                                                        "Period": 
-                                                        "Symbol": 
-                                                        "Designation": 
-                                                        "Classification": 
-                                                        "Relative_atomic_mass": 
-                                                        "Melting_point": 
-                                                        "Boiling_point": 
-                                                        "Density": 
-                                                        "Oxidation_stats": 
-                                                        "Electronegativity": 
-                                                        "Atomic_radius": 
-                                                        "Electron_configuration": 
-                                                        "Ground_level": 
-                                                        "Ionization_energy": 
-                                                        "Picture": 
-                                                        "Thai_name": 
-                                                        "Status": 
-                                                        ],
-                                                        "integer": [
-                                                        "14",
-                                                        "14",
-                                                        "3"
-                                                        ],
-                                                        
-                                                        "Si",
-                                                        "Silicon",
-                                                        "Semimetallics",
-                                                        "28.0855",
-                                                        "1410",
-                                                        "2355",
-                                                        "2.33",
-                                                        "-4,4",
-                                                        "1.74",
-                                                        "117.6",
-                                                        "[Ne] 3S2 3P2",
-                                                        "3P0",
-                                                        "8.1517",
-                                                        "Si.png",
-                                                        "ซิลิคอน",
-                                                        "ธาตุกึ่งโลหะ"
-                                                        ]
-                                                        },
-                                                        {
-
-                                                            "Atomic_number": 
-                                                            "Group": 
-                                                            "Period": 
-                                                            "Symbol": 
-                                                            "Designation": 
-                                                            "Classification": 
-                                                            "Relative_atomic_mass": 
-                                                            "Melting_point": 
-                                                            "Boiling_point": 
-                                                            "Density": 
-                                                            "Oxidation_stats": 
-                                                            "Electronegativity": 
-                                                            "Atomic_radius": 
-                                                            "Electron_configuration": 
-                                                            "Ground_level": 
-                                                            "Ionization_energy": 
-                                                            "Picture": 
-                                                            "Thai_name": 
-                                                            "Status": 
-                                                            ],
-                                                            "integer": [
-                                                            "15",
-                                                            "15",
-                                                            "3"
-                                                            ],
-                                                            
-                                                            "P",
-                                                            "Phosphorus",
-                                                            "Nonmetals",
-                                                            "30.9738",
-                                                            "44.1",
-                                                            "280",
-                                                            "1.82",
-                                                            "-3,3,5",
-                                                            "2.06",
-                                                            "110.5",
-                                                            "[Ne] 3S2 3P3",
-                                                            "4So3|2",
-                                                            "10.4867",
-                                                            "P.png",
-                                                            "ฟอสฟอรัส",
-                                                            "อโลหะ"
-                                                            ]
-                                                            },
-                                                            {
-
-                                                                "Atomic_number": 
-                                                                "Group": 
-                                                                "Period": 
-                                                                "Symbol": 
-                                                                "Designation": 
-                                                                "Classification": 
-                                                                "Relative_atomic_mass": 
-                                                                "Melting_point": 
-                                                                "Boiling_point": 
-                                                                "Density": 
-                                                                "Oxidation_stats": 
-                                                                "Electronegativity": 
-                                                                "Atomic_radius": 
-                                                                "Electron_configuration": 
-                                                                "Ground_level": 
-                                                                "Ionization_energy": 
-                                                                "Picture": 
-                                                                "Thai_name": 
-                                                                "Status": 
-                                                                ],
-                                                                "integer": [
-                                                                "16",
-                                                                "16",
-                                                                "3"
-                                                                ],
-                                                                
-                                                                "S",
-                                                                "Sulfur",
-                                                                "Nonmetals",
-                                                                "32.065",
-                                                                "112.8",
-                                                                "444.67",
-                                                                "2.06",
-                                                                "-2,2,4,6",
-                                                                "2.44",
-                                                                "103.5",
-                                                                "[Ne] 3S2 3P4",
-                                                                "3P2",
-                                                                "10.36",
-                                                                "S.png",
-                                                                "กำมะถัน",
-                                                                "อโลหะ"
-                                                                ]
-                                                                },
-                                                                {
-
-                                                                    "Atomic_number": 
-                                                                    "Group": 
-                                                                    "Period": 
-                                                                    "Symbol": 
-                                                                    "Designation": 
-                                                                    "Classification": 
-                                                                    "Relative_atomic_mass": 
-                                                                    "Melting_point": 
-                                                                    "Boiling_point": 
-                                                                    "Density": 
-                                                                    "Oxidation_stats": 
-                                                                    "Electronegativity": 
-                                                                    "Atomic_radius": 
-                                                                    "Electron_configuration": 
-                                                                    "Ground_level": 
-                                                                    "Ionization_energy": 
-                                                                    "Picture": 
-                                                                    "Thai_name": 
-                                                                    "Status": 
-                                                                    ],
-                                                                    "integer": [
-                                                                    "17",
-                                                                    "17",
-                                                                    "3"
-                                                                    ],
-                                                                    
-                                                                    "Cl",
-                                                                    "Chlorine",
-                                                                    "Halogens",
-                                                                    "35.453",
-                                                                    "-100.98",
-                                                                    "-34.6",
-                                                                    "2.95",
-                                                                    "-1,1,3,5,7",
-                                                                    "2.83",
-                                                                    "99.4",
-                                                                    "[Ne] 3S2 3P5",
-                                                                    "3Po3|2",
-                                                                    "12.9676",
-                                                                    "Cl.png",
-                                                                    "คลอรีน",
-                                                                    "แฮโลเจน"
-                                                                    ]
-                                                                    },
-                                                                    {
-
-                                                                        "Atomic_number": 
-                                                                        "Group": 
-                                                                        "Period": 
-                                                                        "Symbol": 
-                                                                        "Designation": 
-                                                                        "Classification": 
-                                                                        "Relative_atomic_mass": 
-                                                                        "Melting_point": 
-                                                                        "Boiling_point": 
-                                                                        "Density": 
-                                                                        "Oxidation_stats": 
-                                                                        "Electronegativity": 
-                                                                        "Atomic_radius": 
-                                                                        "Electron_configuration": 
-                                                                        "Ground_level": 
-                                                                        "Ionization_energy": 
-                                                                        "Picture": 
-                                                                        "Thai_name": 
-                                                                        "Status": 
-                                                                        ],
-                                                                        "integer": [
-                                                                        "18",
-                                                                        "13",
-                                                                        "3"
-                                                                        ],
-                                                                        
-                                                                        "Ar",
-                                                                        "Argon",
-                                                                        "Inert gases",
-                                                                        "39.948",
-                                                                        "-189.2",
-                                                                        "-185.7",
-                                                                        "1.66",
-                                                                        "-",
-                                                                        "-",
-                                                                        "174",
-                                                                        "[Ne] 3S2 3P6",
-                                                                        "1S0",
-                                                                        "15.7596",
-                                                                        "Ar.png",
-                                                                        "อาร์กอน",
-                                                                        "ก๊าซมีตระกูล"
-                                                                        ]
-                                                                        },
-                                                                        {
-
-                                                                            "Atomic_number": 
-                                                                            "Group": 
-                                                                            "Period": 
-                                                                            "Symbol": 
-                                                                            "Designation": 
-                                                                            "Classification": 
-                                                                            "Relative_atomic_mass": 
-                                                                            "Melting_point": 
-                                                                            "Boiling_point": 
-                                                                            "Density": 
-                                                                            "Oxidation_stats": 
-                                                                            "Electronegativity": 
-                                                                            "Atomic_radius": 
-                                                                            "Electron_configuration": 
-                                                                            "Ground_level": 
-                                                                            "Ionization_energy": 
-                                                                            "Picture": 
-                                                                            "Thai_name": 
-                                                                            "Status": 
-                                                                            ],
-                                                                            "integer": [
-                                                                            "19",
-                                                                            "1",
-                                                                            "4"
-                                                                            ],
-                                                                            
-                                                                            "K",
-                                                                            "Potassium",
-                                                                            "Alkali metals",
-                                                                            "39.0983",
-                                                                            "63.65",
-                                                                            "774",
-                                                                            "0.86",
-                                                                            "1",
-                                                                            "0.91",
-                                                                            "227.2",
-                                                                            "[Ar] 4S1",
-                                                                            "2S1|2",
-                                                                            "4.3407",
-                                                                            "K.png",
-                                                                            "โพแทสเซียม",
-                                                                            "โลหะแอลคาไลน์"
-                                                                            ]
-                                                                            },
-                                                                            {
-
-                                                                                "Atomic_number": 
-                                                                                "Group": 
-                                                                                "Period": 
-                                                                                "Symbol": 
-                                                                                "Designation": 
-                                                                                "Classification": 
-                                                                                "Relative_atomic_mass": 
-                                                                                "Melting_point": 
-                                                                                "Boiling_point": 
-                                                                                "Density": 
-                                                                                "Oxidation_stats": 
-                                                                                "Electronegativity": 
-                                                                                "Atomic_radius": 
-                                                                                "Electron_configuration": 
-                                                                                "Ground_level": 
-                                                                                "Ionization_energy": 
-                                                                                "Picture": 
-                                                                                "Thai_name": 
-                                                                                "Status": 
-                                                                                ],
-                                                                                "integer": [
-                                                                                "20",
-                                                                                "2",
-                                                                                "4"
-                                                                                ],
-                                                                                
-                                                                                "Ca",
-                                                                                "Calcium",
-                                                                                "Alkaline-earth metals",
-                                                                                "40.078",
-                                                                                "839",
-                                                                                "1484",
-                                                                                "1.54",
-                                                                                "2",
-                                                                                "1.04",
-                                                                                "197.4",
-                                                                                "[Ar] 4S2",
-                                                                                "1S0",
-                                                                                "6.1132",
-                                                                                "Ca.png",
-                                                                                "แคลเซียม",
-                                                                                "โลหะแอลคาไลน์เอิร์ท"
-                                                                                ]
-                                                                                },
-                                                                                {
-
-                                                                                    "Atomic_number": 
-                                                                                    "Group": 
-                                                                                    "Period": 
-                                                                                    "Symbol": 
-                                                                                    "Designation": 
-                                                                                    "Classification": 
-                                                                                    "Relative_atomic_mass": 
-                                                                                    "Melting_point": 
-                                                                                    "Boiling_point": 
-                                                                                    "Density": 
-                                                                                    "Oxidation_stats": 
-                                                                                    "Electronegativity": 
-                                                                                    "Atomic_radius": 
-                                                                                    "Electron_configuration": 
-                                                                                    "Ground_level": 
-                                                                                    "Ionization_energy": 
-                                                                                    "Picture": 
-                                                                                    "Thai_name": 
-                                                                                    "Status": 
-                                                                                    ],
-                                                                                    "integer": [
-                                                                                    "21",
-                                                                                    "3",
-                                                                                    "4"
-                                                                                    ],
-                                                                                    
-                                                                                    "Sc",
-                                                                                    "Scandium",
-                                                                                    "Transition metals",
-                                                                                    "44.9559",
-                                                                                    "1541",
-                                                                                    "2831",
-                                                                                    "2.99",
-                                                                                    "3",
-                                                                                    "1.2",
-                                                                                    "162",
-                                                                                    "[Ar] 3D1 4S2",
-                                                                                    "2D3|2",
-                                                                                    "6.5615",
-                                                                                    "Sc.png",
-                                                                                    "สแกนเดียม",
-                                                                                    "โลหะทรานซิชัน"
-                                                                                    ]
-                                                                                    },
-                                                                                    {
-
-                                                                                        "Atomic_number": 
-                                                                                        "Group": 
-                                                                                        "Period": 
-                                                                                        "Symbol": 
-                                                                                        "Designation": 
-                                                                                        "Classification": 
-                                                                                        "Relative_atomic_mass": 
-                                                                                        "Melting_point": 
-                                                                                        "Boiling_point": 
-                                                                                        "Density": 
-                                                                                        "Oxidation_stats": 
-                                                                                        "Electronegativity": 
-                                                                                        "Atomic_radius": 
-                                                                                        "Electron_configuration": 
-                                                                                        "Ground_level": 
-                                                                                        "Ionization_energy": 
-                                                                                        "Picture": 
-                                                                                        "Thai_name": 
-                                                                                        "Status": 
-                                                                                        ],
-                                                                                        "integer": [
-                                                                                        "22",
-                                                                                        "4",
-                                                                                        "4"
-                                                                                        ],
-                                                                                        
-                                                                                        "Ti",
-                                                                                        "Titanium",
-                                                                                        "Transition metals",
-                                                                                        "47.867",
-                                                                                        "1660",
-                                                                                        "3287",
-                                                                                        "4.51",
-                                                                                        "3,4",
-                                                                                        "1.32",
-                                                                                        "144.8",
-                                                                                        "[Ar] 3D2 4S2",
-                                                                                        "3F2",
-                                                                                        "6.8281",
-                                                                                        "Ti.png",
-                                                                                        "ไทเทเนียม",
-                                                                                        "โลหะทรานซิชัน"
-                                                                                        ]
-                                                                                        },
-                                                                                        {
-
-                                                                                            "Atomic_number": 
-                                                                                            "Group": 
-                                                                                            "Period": 
-                                                                                            "Symbol": 
-                                                                                            "Designation": 
-                                                                                            "Classification": 
-                                                                                            "Relative_atomic_mass": 
-                                                                                            "Melting_point": 
-                                                                                            "Boiling_point": 
-                                                                                            "Density": 
-                                                                                            "Oxidation_stats": 
-                                                                                            "Electronegativity": 
-                                                                                            "Atomic_radius": 
-                                                                                            "Electron_configuration": 
-                                                                                            "Ground_level": 
-                                                                                            "Ionization_energy": 
-                                                                                            "Picture": 
-                                                                                            "Thai_name": 
-                                                                                            "Status": 
-                                                                                            ],
-                                                                                            "integer": [
-                                                                                            "23",
-                                                                                            "5",
-                                                                                            "4"
-                                                                                            ],
-                                                                                            
-                                                                                            "V",
-                                                                                            "Vanadium",
-                                                                                            "Transition metals",
-                                                                                            "50.9415",
-                                                                                            "1890",
-                                                                                            "3380",
-                                                                                            "6.09",
-                                                                                            "0,2,3,4,5",
-                                                                                            "1.45",
-                                                                                            "134",
-                                                                                            "[Ar] 3D3 4S2",
-                                                                                            "4F3|2",
-                                                                                            "6.7462",
-                                                                                            "V.png",
-                                                                                            "วาเนเดียม",
-                                                                                            "โลหะทรานซิชัน"
-                                                                                            ]
-                                                                                            },
-                                                                                            {
-
-                                                                                                "Atomic_number": 
-                                                                                                "Group": 
-                                                                                                "Period": 
-                                                                                                "Symbol": 
-                                                                                                "Designation": 
-                                                                                                "Classification": 
-                                                                                                "Relative_atomic_mass": 
-                                                                                                "Melting_point": 
-                                                                                                "Boiling_point": 
-                                                                                                "Density": 
-                                                                                                "Oxidation_stats": 
-                                                                                                "Electronegativity": 
-                                                                                                "Atomic_radius": 
-                                                                                                "Electron_configuration": 
-                                                                                                "Ground_level": 
-                                                                                                "Ionization_energy": 
-                                                                                                "Picture": 
-                                                                                                "Thai_name": 
-                                                                                                "Status": 
-                                                                                                ],
-                                                                                                "integer": [
-                                                                                                "24",
-                                                                                                "6",
-                                                                                                "4"
-                                                                                                ],
-                                                                                                
-                                                                                                "Cr",
-                                                                                                "Chromium",
-                                                                                                "Transition metals",
-                                                                                                "51.9961",
-                                                                                                "1857",
-                                                                                                "2672",
-                                                                                                "7.14",
-                                                                                                "0,2,3,6",
-                                                                                                "1.56",
-                                                                                                "128",
-                                                                                                "[Ar] 3D5 4S1",
-                                                                                                "7S3",
-                                                                                                "6.7462",
-                                                                                                "Cr.png",
-                                                                                                "โครเมียม",
-                                                                                                "โลหะทรานซิชัน"
-                                                                                                ]
-                                                                                                },
-                                                                                                {
-
-                                                                                                    "Atomic_number": 
-                                                                                                    "Group": 
-                                                                                                    "Period": 
-                                                                                                    "Symbol": 
-                                                                                                    "Designation": 
-                                                                                                    "Classification": 
-                                                                                                    "Relative_atomic_mass": 
-                                                                                                    "Melting_point": 
-                                                                                                    "Boiling_point": 
-                                                                                                    "Density": 
-                                                                                                    "Oxidation_stats": 
-                                                                                                    "Electronegativity": 
-                                                                                                    "Atomic_radius": 
-                                                                                                    "Electron_configuration": 
-                                                                                                    "Ground_level": 
-                                                                                                    "Ionization_energy": 
-                                                                                                    "Picture": 
-                                                                                                    "Thai_name": 
-                                                                                                    "Status": 
-                                                                                                    ],
-                                                                                                    "integer": [
-                                                                                                    "25",
-                                                                                                    "7",
-                                                                                                    "4"
-                                                                                                    ],
-                                                                                                    
-                                                                                                    "Mn",
-                                                                                                    "Manganese",
-                                                                                                    "Transition metals",
-                                                                                                    "54.938",
-                                                                                                    "1244",
-                                                                                                    "1962",
-                                                                                                    "7.44",
-                                                                                                    "-1,0,2,3,4,6,7",
-                                                                                                    "1.6",
-                                                                                                    "127",
-                                                                                                    "[Ar] 3D5 4S2",
-                                                                                                    "6S5|2",
-                                                                                                    "7.434",
-                                                                                                    "Mn.png",
-                                                                                                    "แมงกานีส",
-                                                                                                    "โลหะทรานซิชัน"
-                                                                                                    ]
-                                                                                                    },
-                                                                                                    {
-
-                                                                                                        "Atomic_number": 
-                                                                                                        "Group": 
-                                                                                                        "Period": 
-                                                                                                        "Symbol": 
-                                                                                                        "Designation": 
-                                                                                                        "Classification": 
-                                                                                                        "Relative_atomic_mass": 
-                                                                                                        "Melting_point": 
-                                                                                                        "Boiling_point": 
-                                                                                                        "Density": 
-                                                                                                        "Oxidation_stats": 
-                                                                                                        "Electronegativity": 
-                                                                                                        "Atomic_radius": 
-                                                                                                        "Electron_configuration": 
-                                                                                                        "Ground_level": 
-                                                                                                        "Ionization_energy": 
-                                                                                                        "Picture": 
-                                                                                                        "Thai_name": 
-                                                                                                        "Status": 
-                                                                                                        ],
-                                                                                                        "integer": [
-                                                                                                        "26",
-                                                                                                        "8",
-                                                                                                        "4"
-                                                                                                        ],
-                                                                                                        
-                                                                                                        "Fe",
-                                                                                                        "Iron",
-                                                                                                        "Transition metals",
-                                                                                                        "55.845",
-                                                                                                        "1535",
-                                                                                                        "2750",
-                                                                                                        "7.87",
-                                                                                                        "-2,0,2,3,6",
-                                                                                                        "1.64",
-                                                                                                        "126",
-                                                                                                        "[Ar] 3D6 4S2",
-                                                                                                        "5D4",
-                                                                                                        "7.9024",
-                                                                                                        "Fe.png",
-                                                                                                        "เหล็ก",
-                                                                                                        "โลหะทรานซิชัน"
-                                                                                                        ]
-                                                                                                        },
-                                                                                                        {
-
-                                                                                                            "Atomic_number": 
-                                                                                                            "Group": 
-                                                                                                            "Period": 
-                                                                                                            "Symbol": 
-                                                                                                            "Designation": 
-                                                                                                            "Classification": 
-                                                                                                            "Relative_atomic_mass": 
-                                                                                                            "Melting_point": 
-                                                                                                            "Boiling_point": 
-                                                                                                            "Density": 
-                                                                                                            "Oxidation_stats": 
-                                                                                                            "Electronegativity": 
-                                                                                                            "Atomic_radius": 
-                                                                                                            "Electron_configuration": 
-                                                                                                            "Ground_level": 
-                                                                                                            "Ionization_energy": 
-                                                                                                            "Picture": 
-                                                                                                            "Thai_name": 
-                                                                                                            "Status": 
-                                                                                                            ],
-                                                                                                            "integer": [
-                                                                                                            "27",
-                                                                                                            "9",
-                                                                                                            "4"
-                                                                                                            ],
-                                                                                                            
-                                                                                                            "Co",
-                                                                                                            "Cobalt",
-                                                                                                            "Transition metals",
-                                                                                                            "58.9332",
-                                                                                                            "1495",
-                                                                                                            "2870",
-                                                                                                            "8.89",
-                                                                                                            "-1,0,2,3",
-                                                                                                            "1.7",
-                                                                                                            "125.3",
-                                                                                                            "[Ar] 3D7 4S2",
-                                                                                                            "4F9|2",
-                                                                                                            "7.881",
-                                                                                                            "Co.png",
-                                                                                                            "โคบอลต์",
-                                                                                                            "โลหะทรานซิชัน"
-                                                                                                            ]
-                                                                                                            },
-                                                                                                            {
-
-                                                                                                                "Atomic_number": 
-                                                                                                                "Group": 
-                                                                                                                "Period": 
-                                                                                                                "Symbol": 
-                                                                                                                "Designation": 
-                                                                                                                "Classification": 
-                                                                                                                "Relative_atomic_mass": 
-                                                                                                                "Melting_point": 
-                                                                                                                "Boiling_point": 
-                                                                                                                "Density": 
-                                                                                                                "Oxidation_stats": 
-                                                                                                                "Electronegativity": 
-                                                                                                                "Atomic_radius": 
-                                                                                                                "Electron_configuration": 
-                                                                                                                "Ground_level": 
-                                                                                                                "Ionization_energy": 
-                                                                                                                "Picture": 
-                                                                                                                "Thai_name": 
-                                                                                                                "Status": 
-                                                                                                                ],
-                                                                                                                "integer": [
-                                                                                                                "28",
-                                                                                                                "10",
-                                                                                                                "4"
-                                                                                                                ],
-                                                                                                                
-                                                                                                                "Ni",
-                                                                                                                "Nickel",
-                                                                                                                "Transition metals",
-                                                                                                                "56.6934",
-                                                                                                                "1453",
-                                                                                                                "2732",
-                                                                                                                "8.91",
-                                                                                                                "0,2,3",
-                                                                                                                "1.75",
-                                                                                                                "124.6",
-                                                                                                                "[Ar] 3D8 4S2",
-                                                                                                                "3F4",
-                                                                                                                "7.6398",
-                                                                                                                "Ni.png",
-                                                                                                                "นิกเกิล",
-                                                                                                                "โลหะทรานซิชัน"
-                                                                                                                ]
-                                                                                                                },
-                                                                                                                {
-
-                                                                                                                    "Atomic_number": 
-                                                                                                                    "Group": 
-                                                                                                                    "Period": 
-                                                                                                                    "Symbol": 
-                                                                                                                    "Designation": 
-                                                                                                                    "Classification": 
-                                                                                                                    "Relative_atomic_mass": 
-                                                                                                                    "Melting_point": 
-                                                                                                                    "Boiling_point": 
-                                                                                                                    "Density": 
-                                                                                                                    "Oxidation_stats": 
-                                                                                                                    "Electronegativity": 
-                                                                                                                    "Atomic_radius": 
-                                                                                                                    "Electron_configuration": 
-                                                                                                                    "Ground_level": 
-                                                                                                                    "Ionization_energy": 
-                                                                                                                    "Picture": 
-                                                                                                                    "Thai_name": 
-                                                                                                                    "Status": 
-                                                                                                                    ],
-                                                                                                                    "integer": [
-                                                                                                                    "29",
-                                                                                                                    "11",
-                                                                                                                    "4"
-                                                                                                                    ],
-                                                                                                                    
-                                                                                                                    "Cu",
-                                                                                                                    "Copper",
-                                                                                                                    "Transition metals",
-                                                                                                                    "63.546",
-                                                                                                                    "1083",
-                                                                                                                    "2567",
-                                                                                                                    "8.92",
-                                                                                                                    "1,2",
-                                                                                                                    "1.75",
-                                                                                                                    "127.8",
-                                                                                                                    "[Ar] 3D10 4S1",
-                                                                                                                    "2S1|2",
-                                                                                                                    "7.7264",
-                                                                                                                    "Cu.png",
-                                                                                                                    "ทองแดง",
-                                                                                                                    "โลหะทรานซิชัน"
-                                                                                                                    ]
-                                                                                                                    },
-                                                                                                                    {
-
-                                                                                                                        "Atomic_number": 
-                                                                                                                        "Group": 
-                                                                                                                        "Period": 
-                                                                                                                        "Symbol": 
-                                                                                                                        "Designation": 
-                                                                                                                        "Classification": 
-                                                                                                                        "Relative_atomic_mass": 
-                                                                                                                        "Melting_point": 
-                                                                                                                        "Boiling_point": 
-                                                                                                                        "Density": 
-                                                                                                                        "Oxidation_stats": 
-                                                                                                                        "Electronegativity": 
-                                                                                                                        "Atomic_radius": 
-                                                                                                                        "Electron_configuration": 
-                                                                                                                        "Ground_level": 
-                                                                                                                        "Ionization_energy": 
-                                                                                                                        "Picture": 
-                                                                                                                        "Thai_name": 
-                                                                                                                        "Status": 
-                                                                                                                        ],
-                                                                                                                        "integer": [
-                                                                                                                        "30",
-                                                                                                                        "12",
-                                                                                                                        "4"
-                                                                                                                        ],
-                                                                                                                        
-                                                                                                                        "Zn",
-                                                                                                                        "Zinc",
-                                                                                                                        "Transition metals",
-                                                                                                                        "65.409",
-                                                                                                                        "419.6",
-                                                                                                                        "907",
-                                                                                                                        "7.14",
-                                                                                                                        "2",
-                                                                                                                        "1.66",
-                                                                                                                        "134",
-                                                                                                                        "[Ar] 3D10 4S2",
-                                                                                                                        "1S0",
-                                                                                                                        "9.3942",
-                                                                                                                        "Zn.png",
-                                                                                                                        "สังกะสี",
-                                                                                                                        "โลหะทรานซิชัน"
-                                                                                                                        ]
-                                                                                                                        },
-                                                                                                                        {
-
-                                                                                                                            "Atomic_number": 
                                                                                                                             "Group": 
                                                                                                                             "Period": 
                                                                                                                             "Symbol": 
