@@ -40,6 +40,29 @@
 			margin-bottom: 20px;
 		}
 	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>
+		$.getJSON('element.json', function(data) {
+			$('#results').html(JSON.stringify(data));
+		});
+		// $.ajax({
+		// 	type: 'GET',
+		// 	url: 'element.json',
+		// 	async: false,
+		// 	jsonpCallback: 'jsonCallback',
+		// 	contentType: "application/json",
+		// 	dataType: 'json',
+		// 	success: function(data)
+		// 	{
+		// 		$('#results').html(JSON.stringify(data));
+		// 		console.log(json);
+		// 	},
+		// 	error: function(e)
+		// 	{
+		// 		alert(e.message);
+		// 	}
+		// });
+	</script>
 </head>
 <body>
 	<div class="container">
@@ -47,6 +70,7 @@
 			<div class="title">Elemental API</div>
 			<div class="by">by</div>
 			<div class="author">Sarawut Popadcha</div>
+			<div id="results"></div>
 		</div>
 	</div>
 </body>
